@@ -22,7 +22,7 @@ export default class IndexPage extends React.Component {
                     <div className="card">
                       <div className="card-image">
                         <figure className="image">
-                          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Example"/>
+                          <img src={post.frontmatter.image} alt="post"/>
                         </figure>
                       </div>
                       <div className="card-content">
@@ -82,6 +82,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            image
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }
