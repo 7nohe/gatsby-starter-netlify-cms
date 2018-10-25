@@ -7,6 +7,7 @@ tags:
   - brewing
   - chemex
 image: /img/ogp.png
+author: urata
 ---
 ![chemex](/img/chemex.jpg)
 

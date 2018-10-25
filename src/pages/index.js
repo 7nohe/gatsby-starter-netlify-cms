@@ -33,7 +33,7 @@ export default class IndexPage extends React.Component {
                                 {post.frontmatter.title}
                               </Link>
                             </p>
-                            <p className="subtitle is-6">@johnsmith</p>
+                            <p className="subtitle is-6">Author: {post.frontmatter.author}</p>
                           </div>
                         </div>
 
@@ -83,6 +83,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             image
+            author
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }

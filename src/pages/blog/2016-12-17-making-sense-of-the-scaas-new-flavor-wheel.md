@@ -7,6 +7,7 @@ tags:
   - flavor
   - tasting
 image: /img/ogp.png
+author: urata
 ---
 
 ![flavor wheel](/img/flavor_wheel.jpg)
